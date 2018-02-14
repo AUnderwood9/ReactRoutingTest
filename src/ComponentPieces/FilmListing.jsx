@@ -39,7 +39,7 @@ class FilmListing extends Component{
                     {this.state.films.map(
                         (item, index) => {
                             return (
-                                    <div key={`Film-${index}`} className="jumbotron film-theme component-shadow custom-font mb-5">
+                                    <div key={`Film-${index}`} className="jumbotron film-theme component-shadow mb-5">
                                         <Film title={item.title} year={item.release_date} director={item.director} description={item.description}/>
                                     </div>
                                 );

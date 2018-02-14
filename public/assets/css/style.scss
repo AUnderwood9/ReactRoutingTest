@@ -1,3 +1,8 @@
+*{
+    // font-family: 'BioRhyme', serif;
+    font-family: 'Playfair Display', serif;
+}
+
 .main-theme{
     // /* IE10+ */ 
     // background-image: -ms-linear-gradient(top left, #5E21AE 0%, #DD75BA 100%);
@@ -54,10 +59,6 @@
     box-shadow: 17px 24px 99px -3px rgba(107,102,107,0.21);
 }
 
-.custom-font{
-    font-family: 'Oswald', sans-serif;
-}
-
 .people-theme{
     background: linear-gradient(to right, rgba(252,68,130, 0.85), rgba(252,68,130, 0.25));
     background-size: 200% 100%;
@@ -81,3 +82,7 @@
 .film-theme:hover {
     background-position: left bottom
 } 
+
+.space-text{
+    word-spacing: 4em;
+}
