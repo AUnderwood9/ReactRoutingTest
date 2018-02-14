@@ -1,4 +1,59 @@
 .species-theme{
-    background-color: rgba(252,68,130, 0.5);
+    background-color: rgba(252,68,130, 0.25);
     color: white;
+}
+
+.film-theme{
+    background-color: rgba(154,48,174, 0.25);
+    color: white;
+}
+
+.main-theme{
+    // /* IE10+ */ 
+    // background-image: -ms-linear-gradient(top left, #5E21AE 0%, #DD75BA 100%);
+
+    // /* Mozilla Firefox */ 
+    // background-image: -moz-linear-gradient(top left, #5E21AE 0%, #DD75BA 100%);
+
+    // /* Opera */ 
+    // background-image: -o-linear-gradient(top left, #5E21AE 0%, #DD75BA 100%);
+
+    // /* Webkit (Safari/Chrome 10) */ 
+    // background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #5E21AE), color-stop(100, #DD75BA));
+
+    // /* Webkit (Chrome 11+) */ 
+    // background-image: -webkit-linear-gradient(top left, #5E21AE 0%, #DD75BA 100%);
+
+    // /* W3C Markup */ 
+    // background-image: linear-gradient(to bottom right, #5E21AE 0%, #DD75BA 100%);
+
+    background: linear-gradient(301deg, #a39ce1, #321eec);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 8s ease infinite;
+    -moz-animation: AnimationName 8s ease infinite;
+    -o-animation: AnimationName 8s ease infinite;
+    animation: AnimationName 8s ease infinite;
+
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 14%}
+        50%{background-position:100% 87%}
+        100%{background-position:0% 14%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 14%}
+        50%{background-position:100% 87%}
+        100%{background-position:0% 14%}
+    }
+    @-o-keyframes AnimationName {
+        0%{background-position:0% 14%}
+        50%{background-position:100% 87%}
+        100%{background-position:0% 14%}
+    }
+    @keyframes AnimationName { 
+        0%{background-position:0% 14%}
+        50%{background-position:100% 87%}
+        100%{background-position:0% 14%}
+    }
+
 }

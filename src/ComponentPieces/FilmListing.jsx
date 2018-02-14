@@ -39,7 +39,7 @@ class FilmListing extends Component{
                     {this.state.films.map(
                         (item, index) => {
                             return (
-                                    <div key={`Film-${index}`} className="jumbotron mb-5">
+                                    <div key={`Film-${index}`} className="jumbotron film-theme mb-5">
                                         <Film title={item.title} year={item.release_date} director={item.director} description={item.description}/>
                                     </div>
                                 );
