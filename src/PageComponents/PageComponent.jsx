@@ -5,22 +5,17 @@ import { BrowserRouter, Link, Switch, Route } from "react-router-dom";
 
 
 class PageComponent extends Component{
-    constructor(props){
-        super(props);
-
-
-    }
 
     renderLoading(){
         return(
             <Fragment>
-                <div className="row">
-                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/Studio_Ghibli_logo.svg/1200px-Studio_Ghibli_logo.svg.png" alt="Studio Ghibli"/>
+                <div className="row mb-5">
+                    <img className="col-12" src="https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/Studio_Ghibli_logo.svg/1200px-Studio_Ghibli_logo.svg.png" alt="Studio Ghibli"/>
                 </div>
                 
-                <div className="row">
-                    <Link to="/FilmListing" className="col-4 btn btn-success mr-5">Films</Link>
-                    <Link to="/PeopleLisitng" className="col-4 btn btn-success">People</Link>
+                <div className="row mb-5">
+                    <Link to="/FilmListing" className="col-4 btn btn-sm btn-primary mr-5">Films</Link>
+                    <Link to="/PeopleLisitng" className="col-4 btn btn-sm btn-secondary">People</Link>
                 </div>
                 
             </Fragment>

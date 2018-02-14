@@ -43,7 +43,11 @@ class PeopleListing extends Component {
                         let gender = (item.gender === "NA" ? "Guess" : item.gender);
 
                         // console.log(item.name, gender, age, item.eye_color, item.hair_color);
-                        return <Person name={item.name} gender={gender} age={age} eyeColor={item.eye_color} hairColor={item.hair_color} />
+                        return (
+                                <div key={`Person-${index}`} className="jumbotron species-theme mb-2">
+                                    <Person name={item.name} gender={gender} age={age} eyeColor={item.eye_color} hairColor={item.hair_color} />
+                                </div>
+                            );
                     }
                 )}
             </Fragment>
